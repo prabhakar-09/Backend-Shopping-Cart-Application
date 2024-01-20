@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://${DB_HOST:localhost}:3306/orderdb
     username: root
-    password: Kulkarni@123
+    password: password
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
@@ -33,7 +33,7 @@ spring:
 #   datasource:
 #     url: jdbc:mysql://${DB_HOST:localhost}:3306/orderdb
 #     username: root
-#     password: Kulkarni@123
+#     password: password
 #     driverClassName: com.mysql.cj.jdbc.Driver
 #   jpa:
 #     database-platform: org.hibernate.dialect.MySQL8Dialect
